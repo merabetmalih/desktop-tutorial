@@ -1,0 +1,63 @@
+<!doctype html>
+<meta charset="UTF-8">
+<html>
+<link rel="stylesheet" type="text/css" href="./bootstrap.css">
+<head>
+<title>REGISTR</title>
+</head>
+<body>
+<h1> REGISTR</h1>
+<form>
+<div>
+<label for="first">FIRSTNAME</label>
+	<input type="text" name ="first" id="FIRST" placeholder="First NAME" required >
+
+<label for="last" >LASTNAME</label>
+	<input type="text" name ="last" id="LAST" placeholder="LAST NAME" required >
+</div>
+<div>
+<label for="male">MALE </label>
+	<input name ="sex" type="radio" id="male"  value="male">
+<label for="female" >FEMALE </label>
+	<input name ="sex" type="radio" id="female"  value="FEmale">
+<label for="other" >OTHER </label>
+	<input name ="sex" type="radio" id="other"  value="OTHER">
+</div>
+<div>
+<label>EMAIL</label>
+	<input type="email" id="EMAIL" placeholder="your email" required>
+
+<label>PASSWORD</label>
+	<input type="PASSWORD" id="PASSWORD" placeholder="your password" required>
+</div>
+<div>
+<label> BIRTHDAY 
+<select name="mounth" >
+		<option>mounth</option>
+		<option>janvier</option>
+		<option>fivrier</option>
+		<option>mARS</option>
+</select> 
+<select name="DAY" >
+		<option>DAY</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+</select>
+<select name="year" >
+		<option>year</option>
+		<option>2020</option>
+		<option>2019</option>
+		<option>2018</option>
+</select>
+</label> 
+</div>
+<div>
+<label for="agree"> I Agree the Termsand condition </label>
+<input type='checkbox' name ="agree" id="agree"  required>
+</div>
+
+<input type="submit" >
+</form>
+</body>
+</html>
